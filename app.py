@@ -8,8 +8,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 st.set_page_config(page_title="🎵 Song Recommender", layout="wide")
 
 # ---------- Spotify API Setup ----------
-CLIENT_ID = st.secrets["spotify"]["client_id"]
-CLIENT_SECRET = st.secrets["spotify"]["client_secret"]
+CLIENT_ID = "a4a490f3021d42539d61ddecef4c86e2"
+CLIENT_SECRET = "611c34671a4e49798457e92b303830c2"
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
